@@ -16,11 +16,11 @@ const FitnessCards = () => {
           excersises:item.excersises,
           id:item.id,
         })}
-          style={{ alignItems: "center", justifyContent: "center", margin: 10 }}
+          style={{ alignItems: "center", justifyContent: "center",marginTop:-50 }}
           key={key}
         >
           <Image
-            style={{ width: "95%", height: 140, borderRadius: 7 }}
+            style={{ width: "95%", height: "65%", borderRadius: 7 }}
             source={{ uri: item.image }}
           />
           <Text
@@ -30,7 +30,7 @@ const FitnessCards = () => {
               fontSize: 16,
               fontWeight: "bold",
               left: 20,
-              top: 20,
+              top: 90,
             }}
           >
             {item.name}

@@ -83,12 +83,12 @@ const HomeScreen = () => {
           </View>
         </View>
 
-        <View style={{ justifyContent: "center", alignItems: "center" }}>
+        <View style={{ justifyContent: "center", alignItems: "center"}}>
           <Image
             style={{
               width: "90%",
               height: 120,
-              marginTop: 20,
+              marginTop: 10,
               borderRadius: 7,
             }}
             source={{
